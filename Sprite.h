@@ -2,6 +2,8 @@
 // Created by JAD on 17/10/2025.
 //
 
+#include <stdlib.h>
+#include <stdio.h>
 #ifndef JUNIA_ISEN3_TOPGUN__SPRITE_H_
 #define JUNIA_ISEN3_TOPGUN__SPRITE_H_
 #define SPRITE_SIZE 5

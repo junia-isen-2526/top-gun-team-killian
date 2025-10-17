@@ -7,9 +7,12 @@
 #ifndef JUNIA_ISEN3_TOPGUN__SKY_H_
 #define JUNIA_ISEN3_TOPGUN__SKY_H_
 #define EMPTY_SKY_TILE '.'
+#define MAX_MOBILE_ON_SKY 10
+
 typedef struct {
   int height;
   int width;
+  Mobile *mobileOnSky[MAX_MOBILE_ON_SKY];
 } Sky;
 
 
