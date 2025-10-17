@@ -1,6 +1,11 @@
 #include <stdio.h>
 
+#include "Sky.h"
+
 int main(void) {
-	printf("Hello, World!\n");
-	return 0;
+    Sky *sky = createSky(5, 10);
+
+    displaySky(sky);
+
+    destroySky(sky);
 }
