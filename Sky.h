@@ -12,6 +12,7 @@ typedef struct {
   int width;
 } Sky;
 
+
 Sky* createSky(int height, int width);
 
 void destroySky(Sky* sky);
